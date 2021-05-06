@@ -7,3 +7,9 @@
 [submodule "06_00_python"]
 	path = 06_00_python
 	url = git@github.com:software-engineering-nitech/06_00_python.git
+[submodule "07_01_gdb"]
+	path = 07_01_gdb
+	url = git@github.com:software-engineering-nitech/07_01_gdb.git
+[submodule "07_02_python_debug"]
+	path = 07_02_python_debug
+	url = git@github.com:software-engineering-nitech/07_02_python_debug.git
