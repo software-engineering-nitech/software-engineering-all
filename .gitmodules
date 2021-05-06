@@ -1,0 +1,9 @@
+[submodule "06_01_C"]
+	path = 06_01_C
+	url = git@github.com:software-engineering-nitech/06_01_C.git
+[submodule "06_02_Java"]
+	path = 06_02_Java
+	url = git@github.com:software-engineering-nitech/06_02_Java.git
+[submodule "06_00_python"]
+	path = 06_00_python
+	url = git@github.com:software-engineering-nitech/06_00_python.git
