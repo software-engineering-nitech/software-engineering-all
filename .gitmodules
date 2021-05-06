@@ -13,3 +13,12 @@
 [submodule "07_02_python_debug"]
 	path = 07_02_python_debug
 	url = git@github.com:software-engineering-nitech/07_02_python_debug.git
+[submodule "08_01_diff"]
+	path = 08_01_diff
+	url = git@github.com:software-engineering-nitech/08_01_diff.git
+[submodule "08_02_patch"]
+	path = 08_02_patch
+	url = git@github.com:software-engineering-nitech/08_02_patch.git
+[submodule "08_03_git"]
+	path = 08_03_git
+	url = git@github.com:software-engineering-nitech/08_03_git.git
