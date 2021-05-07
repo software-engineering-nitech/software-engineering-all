@@ -25,3 +25,18 @@
 [submodule "09_01_add_mult"]
 	path = 09_01_add_mult
 	url = git@github.com:software-engineering-nitech/09_01_add_mult.git
+[submodule "10_01_make"]
+	path = 10_01_make
+	url = git@github.com:software-engineering-nitech/10_01_make.git
+[submodule "10_02_make_latex"]
+	path = 10_02_make_latex
+	url = git@github.com:software-engineering-nitech/10_02_make_latex.git
+[submodule "10_03_make_test"]
+	path = 10_03_make_test
+	url = git@github.com:software-engineering-nitech/10_03_make_test.git
+[submodule "10_04_cmake"]
+	path = 10_04_cmake
+	url = git@github.com:software-engineering-nitech/10_04_cmake.git
+[submodule "10_05_pkg-config"]
+	path = 10_05_pkg-config
+	url = git@github.com:software-engineering-nitech/10_05_pkg-config.git
