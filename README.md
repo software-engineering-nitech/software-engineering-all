@@ -11,5 +11,15 @@ git submodule update --init --recursive
 - モジュールが更新されたら以下を実行すること
 
 ```bash
+git submodule foreach git pull --ff-only origin main
+git commit -am "update submodules"
+```
+
+なお
+
+```bash
 git submodule update
 ```
+
+では，submoduleを追加した時点に戻してしまうだけ．
+各submoduleでpullして，全体でcommitする必要がある．
