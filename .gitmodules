@@ -22,3 +22,6 @@
 [submodule "08_03_git"]
 	path = 08_03_git
 	url = git@github.com:software-engineering-nitech/08_03_git.git
+[submodule "09_01_add_mult"]
+	path = 09_01_add_mult
+	url = git@github.com:software-engineering-nitech/09_01_add_mult.git
