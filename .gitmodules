@@ -46,3 +46,12 @@
 [submodule "11_02_obfuscation"]
 	path = 11_02_obfuscation
 	url = git@github.com:software-engineering-nitech/11_02_obfuscation.git
+[submodule "12_01_sphinx"]
+	path = 12_01_sphinx
+	url = git@github.com:software-engineering-nitech/12_01_sphinx.git
+[submodule "12_02_doxgen"]
+	path = 12_02_doxgen
+	url = git@github.com:software-engineering-nitech/12_02_doxgen.git
+[submodule "12_03_markup"]
+	path = 12_03_markup
+	url = git@github.com:software-engineering-nitech/12_03_markup.git
