@@ -23,3 +23,10 @@ git submodule update
 
 では，submoduleを追加した時点に戻してしまうだけ．
 各submoduleでpullして，全体でcommitする必要がある．
+
+- モジュールをすべて元に戻したい場合
+
+```bash
+git submodule foreach git checkout .
+```
+
