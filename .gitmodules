@@ -55,3 +55,6 @@
 [submodule "12_03_markup"]
 	path = 12_03_markup
 	url = git@github.com:software-engineering-nitech/12_03_markup.git
+[submodule "13_github"]
+	path = 13_github
+	url = git@github.com:tttamaki/my-first-test-repo.git
