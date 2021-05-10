@@ -58,3 +58,6 @@
 [submodule "13_github"]
 	path = 13_github
 	url = git@github.com:tttamaki/my-first-test-repo.git
+[submodule "14_ci_cd"]
+	path = 14_ci_cd
+	url = git@github.com:tttamaki/show_img_hist.git
