@@ -2,10 +2,14 @@
 
 各サンプルコードをモジュールとして取り込んで，一式取得できるようにリポジトリを作成しました．
 
-- `git clone`した後に以下を実行すること（モジュールのコードを実際に取得する）
+- `git clone`だけでなく，以下の手順を実行すること（モジュールのコードを実際に取得する）
 
 ```bash
+git clone https://github.com/se-nitech/se-all.git
+cd se-all
 git submodule update --init --recursive
+git submodule foreach git checkout main
+git submodule foreach git fetch --all
 ```
 
 - モジュールが更新されたら以下を実行すること
