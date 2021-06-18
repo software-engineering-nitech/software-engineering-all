@@ -1,63 +1,63 @@
 [submodule "06_00_python"]
 	path = 06_00_python
-	url = git@github.com:se-nitech/06_00_python.git
+	url = https://github.com/se-nitech/06_00_python.git
 [submodule "06_01_C"]
 	path = 06_01_C
-	url = git@github.com:se-nitech/06_01_C.git
+	url = https://github.com/se-nitech/06_01_C.git
 [submodule "06_02_Java"]
 	path = 06_02_Java
-	url = git@github.com:se-nitech/06_02_Java.git
+	url = https://github.com/se-nitech/06_02_Java.git
 [submodule "07_01_gdb"]
 	path = 07_01_gdb
-	url = git@github.com:se-nitech/07_01_gdb.git
+	url = https://github.com/se-nitech/07_01_gdb.git
 [submodule "07_02_python_debug"]
 	path = 07_02_python_debug
-	url = git@github.com:se-nitech/07_02_python_debug.git
+	url = https://github.com/se-nitech/07_02_python_debug.git
 [submodule "08_01_diff"]
 	path = 08_01_diff
-	url = git@github.com:se-nitech/08_01_diff.git
+	url = https://github.com/se-nitech/08_01_diff.git
 [submodule "08_02_patch"]
 	path = 08_02_patch
-	url = git@github.com:se-nitech/08_02_patch.git
+	url = https://github.com/se-nitech/08_02_patch.git
 [submodule "08_03_git"]
 	path = 08_03_git
-	url = git@github.com:se-nitech/08_03_git.git
+	url = https://github.com/se-nitech/08_03_git.git
 [submodule "09_01_add_mult"]
 	path = 09_01_add_mult
-	url = git@github.com:se-nitech/09_01_add_mult.git
+	url = https://github.com/se-nitech/09_01_add_mult.git
 [submodule "10_01_make"]
 	path = 10_01_make
-	url = git@github.com:se-nitech/10_01_make.git
+	url = https://github.com/se-nitech/10_01_make.git
 [submodule "10_02_make_latex"]
 	path = 10_02_make_latex
-	url = git@github.com:se-nitech/10_02_make_latex.git
+	url = https://github.com/se-nitech/10_02_make_latex.git
 [submodule "10_03_make_test"]
 	path = 10_03_make_test
-	url = git@github.com:se-nitech/10_03_make_test.git
+	url = https://github.com/se-nitech/10_03_make_test.git
 [submodule "10_04_cmake"]
 	path = 10_04_cmake
-	url = git@github.com:se-nitech/10_04_cmake.git
+	url = https://github.com/se-nitech/10_04_cmake.git
 [submodule "10_05_pkg-config"]
 	path = 10_05_pkg-config
-	url = git@github.com:se-nitech/10_05_pkg-config.git
+	url = https://github.com/se-nitech/10_05_pkg-config.git
 [submodule "11_01_formatting"]
 	path = 11_01_formatting
-	url = git@github.com:se-nitech/11_01_formatting.git
+	url = https://github.com/se-nitech/11_01_formatting.git
 [submodule "11_02_obfuscation"]
 	path = 11_02_obfuscation
-	url = git@github.com:se-nitech/11_02_obfuscation.git
+	url = https://github.com/se-nitech/11_02_obfuscation.git
 [submodule "12_01_sphinx"]
 	path = 12_01_sphinx
-	url = git@github.com:se-nitech/12_01_sphinx.git
+	url = https://github.com/se-nitech/12_01_sphinx.git
 [submodule "12_02_doxgen"]
 	path = 12_02_doxgen
-	url = git@github.com:se-nitech/12_02_doxgen.git
+	url = https://github.com/se-nitech/12_02_doxgen.git
 [submodule "12_03_markup"]
 	path = 12_03_markup
-	url = git@github.com:se-nitech/12_03_markup.git
+	url = https://github.com/se-nitech/12_03_markup.git
 [submodule "13_github"]
 	path = 13_github
-	url = git@github.com:tttamaki/my-first-test-repo.git
+	url = https://github.com/tttamaki/my-first-test-repo.git
 [submodule "14_ci_cd"]
 	path = 14_ci_cd
-	url = git@github.com:tttamaki/show_img_hist.git
+	url = https://github.com/tttamaki/show_img_hist.git
