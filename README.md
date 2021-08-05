@@ -1,46 +1,36 @@
 # ソフトウェア工学のサンプルコード
 
-各サンプルコードをモジュールとして取り込んで，一式取得できるようにリポジトリを作成しました．
+これは「ソフトウェア工学」のためのサンプルコードです．
+第6回から第14回に対応しています．
 
-## 使う場合：クローン
+## 使い方
 
-- `git clone`だけでなく，以下の手順を実行すること（モジュールのコードを実際に取得する）
+gitリポジトリをsubmoduleで管理していますが，あまりうまく動作しない場合があるので，以下のようにサブディレクトリを個別にcloneしてください．
 
 ```bash
-git clone https://github.com/se-nitech/se-all.git
+mkdir se-all
 cd se-all
-git submodule update --init --recursive
-git submodule foreach git checkout main
-git submodule foreach git fetch --all
+git clone https://github.com/se-nitech/06_00_python.git
+git clone https://github.com/se-nitech/06_01_C.git
+git clone https://github.com/se-nitech/06_02_Java.git
+git clone https://github.com/se-nitech/07_01_gdb.git
+git clone https://github.com/se-nitech/07_02_python_debug.git
+git clone https://github.com/se-nitech/08_01_diff.git
+git clone https://github.com/se-nitech/08_02_patch.git
+git clone https://github.com/se-nitech/08_03_git.git
+git clone https://github.com/se-nitech/09_01_add_mult.git
+git clone https://github.com/se-nitech/10_01_make.git
+git clone https://github.com/se-nitech/10_02_make_latex.git
+git clone https://github.com/se-nitech/10_03_make_test.git
+git clone https://github.com/se-nitech/10_04_cmake.git
+git clone https://github.com/se-nitech/10_05_pkg-config.git
+git clone https://github.com/se-nitech/11_01_formatting.git
+git clone https://github.com/se-nitech/11_02_obfuscation.git
+git clone https://github.com/se-nitech/12_01_sphinx.git
+git clone https://github.com/se-nitech/12_02_doxgen.git
+git clone https://github.com/se-nitech/12_03_markup.git
+git clone https://github.com/tttamaki/my-first-test-repo.git 13_github
+git clone https://github.com/tttamaki/show_img_hist.git 14_ci_cd
+
 ```
 
-- モジュールが更新されたら以下を実行
-
-```bash
-git pull origin main
-git submodule foreach git pull --ff-only origin main
-```
-
-## 修正する場合：更新
-
-- 下位モジュールが更新されたら以下を実行して，上位のリポジトリ（これ）を更新する
-
-```bash
-git submodule foreach git pull --ff-only origin main
-git commit -am "update submodules"
-```
-
-なお
-
-```bash
-git submodule update
-```
-
-では，submoduleを追加した時点に戻してしまうだけ．
-各submoduleでpullして，全体でcommitする必要がある．
-
-- モジュールをすべて元に戻したい場合
-
-```bash
-git submodule foreach git checkout .
-```
