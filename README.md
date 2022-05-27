@@ -34,3 +34,14 @@ git clone https://github.com/tttamaki/show_img_hist.git 14_ci_cd
 
 ```
 
+
+## テスト
+
+### docker-composeのテスト
+
+```bash:
+for i in `ls`; do cd $i ; pwd ; docker compose build  ; cd .. ; done
+for i in `ls`; do cd $i ; pwd ; docker compose up -d  ; cd .. ; done
+for i in `ls`; do cd $i ; pwd ; docker compose stop   ; cd .. ; done
+for i in `ls`; do cd $i ; pwd ; docker compose down   ; cd .. ; done
+```
